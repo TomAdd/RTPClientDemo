@@ -63,6 +63,7 @@ public class ClientTextureView extends TextureView implements TextureView.Surfac
     public void onSurfaceTextureUpdated(SurfaceTexture surface) {
     }
 
+	//处理线程
     private class PreviewThread extends Thread {
         DatagramPacket datagramPacket = null;
 
